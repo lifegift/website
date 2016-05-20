@@ -1,0 +1,96 @@
+/*header {
+    zoom: 1;
+}
+
+header:after {
+    clear: both;
+    content: '.';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: "Microsoft JhengHei", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6em;
+    letter-spacing: -.05em;
+
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ff7f24;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #EE67A8;
+    text-decoration: underline;
+}
+
+
+/*网站头部*/
+#toppage{
+	background-color: #644747
+}
+#ico{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#ico:after{
+    clear: both;
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+#ico img{
+    width: 200px;
+    height: 200px;
+
+}
+#title{
+	float: left;
+	display: block;
+	margin-right: 800px;
+}
+#title p{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 3em;
+
+}
+
+#linkme{
+	float: left;
+	display: inline-block;
+}
+
+
+#toppage:after{
+    clear: both;
+    content: '.';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
